@@ -1,0 +1,127 @@
+.main-header{
+    padding: 40px 50px;
+    background-color: #232628;
+    display:flex;
+    justify-content: space-between;
+}
+.header-logo{
+    color: #CC622B;
+    /* margin-right: 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.header-details{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* width: 100% */
+}
+.address{
+    display: flex;
+    /* background-color: purple; */
+    margin-left:3px;
+    justify-content: center;
+    align-items: center;
+}
+.address-icon{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #CC622B;
+    border: 3px solid #CC622B;
+    border-radius: 50%;
+    padding: 1%;
+}
+.address-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    padding: 0px 3%; 
+}
+.phone{
+    display: flex;
+    /* background-color: pink; */
+    margin:0 20px;
+    justify-content: center;
+    align-items: center;
+}
+.phone-text{
+    /* justify-content: center;
+    align-items: center; */
+    font-size: 11px;
+    color:white;
+    /* margin: 0px 15%;  */
+    margin-left: 10px;
+    /* width: 100%; */
+    font-weight: 800;
+    white-space: nowrap;
+    color: #CC622B;
+}
+.phone-icon{
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    color: #CC622B;
+    border: 3px solid #CC622B;
+    border-radius: 50%;
+    padding: 2%;
+}
+.number{
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+.service{
+    margin:0 20px;
+}
+.service-text{
+    font-size: 10px;
+    color: #CC622B;
+    font-weight: 800;
+    margin-top: 1%;
+}
+.service-number{
+    font-size: 13px;
+    color: white;
+    font-weight: 800;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .phone-text{
+        display: none;
+    }
+    .service{
+        display: none;
+    }
+    .address-text{
+        display: none;
+    }
+    .phone-icon{
+        padding: 30%;
+        font-size: 25px;
+        /* margin-left: 20px */
+    }
+    .address-icon{
+        padding: 18%;
+        font-size: 25px;
+        margin-right: 20px
+    
+    }
+  }
+
+
+@media only screen and (max-width: 800px) {
+    .service{
+        display: none;
+    }
+ 
+  }
+
