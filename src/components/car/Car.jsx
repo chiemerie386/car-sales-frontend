@@ -9,11 +9,10 @@ export const Car = (props) => {
             method: 'delete',
             url: `${process.env.REACT_APP_BASE_URL}/car/${id}`,
           }).then((val)=>{
-              window.reload()
+              window.location.reload()
             })
     }
 
-    console.log()
     return (
         <div className="car-card">
            <img className="car-image" src={props.image}/>

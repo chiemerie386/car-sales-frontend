@@ -29,11 +29,8 @@
     justify-content: space-between;
 }
 .car-name{
-    /* background-color: pink; */
     font-weight: 700;
     transform-origin: left top;
-    /* padding: 3%; */
-
 }
 .car-price{
     font-weight: 700;

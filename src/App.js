@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header/>
       <CarList show={!visible}/>
-      <AddCar show={visible}/>
+      <AddCar show={visible} setShow={setVisible}/>
       <button className="add-car" onClick={()=>setVisible(!visible)}> Add Car</button>
       
 

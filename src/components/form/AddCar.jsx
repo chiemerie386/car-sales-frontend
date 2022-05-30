@@ -11,6 +11,7 @@ async function postData({image, name, year, company, price}) {
     formData.append("price", price)
   
     const result = await axios.post(`${process.env.REACT_APP_BASE_URL}/car`, formData, { headers: {'Content-Type': 'multipart/form-data'}})
+    window.location.reload()
     return result.data
   }
 
@@ -22,8 +23,6 @@ export const AddCar = ({show}) => {
     const [file, setFile] = useState()
 
     async function addNewCar () {
-        
-
         let details= {name,company,price,year}
         const result = await postData({image: file, name,company,price,year})
         console.log(result)
