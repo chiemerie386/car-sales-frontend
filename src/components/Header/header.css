@@ -1,4 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,800&display=swap');
 
 .main-header{
@@ -13,23 +12,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: aqua; */
     font-family: 'EB Garamond', serif;
     white-space: nowrap;
-
-    font-size: 30px
-    /* font-family: 'EB Garamond'
-     */
+    font-size: 30px;
 }
 .header-details{
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    /* width: 100% */
 }
 .address{
     display: flex;
-    /* background-color: purple; */
     margin-left:3px;
     justify-content: center;
     align-items: center;
@@ -55,19 +46,14 @@
 }
 .phone{
     display: flex;
-    /* background-color: pink; */
     margin:0 20px;
     justify-content: center;
     align-items: center;
 }
 .phone-text{
-    /* justify-content: center;
-    align-items: center; */
     font-size: 11px;
     color:white;
-    /* margin: 0px 15%;  */
     margin-left: 10px;
-    /* width: 100%; */
     font-weight: 800;
     white-space: nowrap;
     color: #CC622B;
@@ -116,7 +102,6 @@
     .phone-icon{
         padding: 30%;
         font-size: 25px;
-        /* margin-left: 20px */
     }
     .address-icon{
         padding: 18%;

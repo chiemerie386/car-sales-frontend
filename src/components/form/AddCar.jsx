@@ -15,7 +15,7 @@ async function postData({image, name, year, company, price}) {
     return result.data
   }
 
-export const AddCar = ({show}) => {
+export const AddCar = ({show, setShow}) => {
     const [name, setName] = useState('')
     const [company, setCompany] = useState('')
     const [year, setYear] = useState('')
@@ -25,6 +25,7 @@ export const AddCar = ({show}) => {
     async function addNewCar () {
         let details= {name,company,price,year}
         const result = await postData({image: file, name,company,price,year})
+        setShow(false)
         console.log(result)
     }
 

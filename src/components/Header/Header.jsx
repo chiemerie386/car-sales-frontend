@@ -16,8 +16,8 @@ export const Header = () => {
                     <div className="phone-text">PHONE <br/><span className="number">070-6428-6583</span></div>
                 </div>
                 <div className="service">
-                    <div className="service-text">SERVICE <span className="service-number">878-3853-9573</span> </div>
-                    <div className="service-text">PARTS <span className="service-number">878-3853-9573</span> </div>
+                    <div className="service-text">SERVICE <span className="service-number">070-6428-6583</span> </div>
+                    <div className="service-text">PARTS <span className="service-number">070-6428-6583</span> </div>
                 </div>
             </div>
         </div>
