@@ -1,3 +1,6 @@
+/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,800&display=swap');
+
 .main-header{
     padding: 40px 50px;
     background-color: #232628;
@@ -6,11 +9,17 @@
 }
 .header-logo{
     color: #CC622B;
-    /* margin-right: 10%; */
+    margin-right: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    /* background-color: aqua; */
+    font-family: 'EB Garamond', serif;
+    white-space: nowrap;
+
+    font-size: 30px
+    /* font-family: 'EB Garamond'
+     */
 }
 .header-details{
     display: flex;

@@ -5,7 +5,7 @@ import { IoLocationSharp, IoCall } from "react-icons/io5";
 export const Header = () => {
     return (
         <div className="main-header">
-            <div className="header-logo">Z-motors</div>
+            <div className="header-logo">Z ~ CARS</div>
             <div className="header-details">
                 <div className="address">
                     <div className="address-icon"><IoLocationSharp/></div>
