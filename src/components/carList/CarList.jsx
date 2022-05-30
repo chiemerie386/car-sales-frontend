@@ -20,7 +20,7 @@ export const CarList = ({show}) => {
         {show && (<div className="car-list">
         {
             data && (data.map((val,index)=>{
-                let image = `http://localhost:5000/car/images/${val.image}`
+                let image = `${process.env.REACT_APP_BASE_URL}/car/images/${val.image}`
                 return(
                     <Car key={index} id={val._id} name={val.name.toUpperCase()} make={val.make.toUpperCase()} year={val.year.toUpperCase()} price={val.price.toUpperCase()} image={image}/>
                 )
